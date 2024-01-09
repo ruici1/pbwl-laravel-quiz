@@ -8,7 +8,7 @@
                 <label for="">KODE</label>
                 <input type="text" name="gol_kode" class="form-control" placeholder="Kode Golongan">
             </div>
-            <div class="mb-3">
+             <div class="mb-3">
                 <label for="">NAMA</label>
                 <input type="text" name="gol_nama" class="form-control" placeholder="Nama Golongan">
             </div>

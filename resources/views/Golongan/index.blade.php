@@ -12,7 +12,7 @@
             <tr>
                 <td>NO</td>
                 <td>KODE</td>
-                <td>NAMA</td>
+                <td>NAMA GOLONGAN</td>
                 <td>EDIT</td>
                 <td>HAPUS</td>
             </tr>
@@ -21,7 +21,7 @@
                 <td>{{ $row->gol_id}}</td>
                 <td>{{ $row->gol_kode}}</td>
                 <td>{{ $row->gol_nama}}</td>
-                <td><a class="btn btn-info btn-sm float" href="{{url('golongan/' .$row->gol_id. '/edit')}}">Edit</a></td>
+                <td><a class="btn btn-warning btn-sm float" href="{{url('golongan/' .$row->gol_id. '/edit')}}">Edit</a></td>
                 <td>
                     <form action="{{url('golongan/' .$row->gol_id)}}" method="post">
                         @method('DELETE')

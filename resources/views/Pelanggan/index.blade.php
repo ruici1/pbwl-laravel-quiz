@@ -12,9 +12,9 @@
             <tr>
                 <td>NO</td>
                 <td>GOLONGAN</td>
-                <td>USER</td>
-                <td>KODE</td>
                 <td>NAMA</td>
+                <td>HARI</td>
+                <td>JAM</td>
                 <td>ALAMAT</td>
                 <td>NOMOR HP</td>
                 <td>EDIT</td>
@@ -29,7 +29,7 @@
                 <td>{{ $row->pel_nama}}</td>
                 <td>{{ $row->pel_alamat}}</td>
                 <td>{{ $row->pel_hp}}</td>
-                <td><a class="btn btn-info btn-sm float" href="{{url('pelanggan/' .$row->pel_id. '/edit')}}">Edit</a></td>
+                <td><a class="btn btn-warning btn-sm float" href="{{url('pelanggan/' .$row->pel_id. '/edit')}}">Edit</a></td>
                 <td>
                     <form action="{{url('pelanggan/' .$row->pel_id)}}" method="post">
                         @method('DELETE')

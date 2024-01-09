@@ -22,11 +22,11 @@
                 </select>    
             </div>
             <div class="mb-3">
-                <label for="">KODE</label>
+                <label for="">HARI</label>
                 <input type="text" name="pel_no" class="form-control" value="{{$row->pel_no}}">
             </div>
             <div class="mb-3">
-                <label for="">NAMA</label>
+                <label for="">JAM</label>
                 <input type="text" name="pel_nama" class="form-control" value="{{$row->pel_nama}}">
             </div>
             <div class="mb-3">

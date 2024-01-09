@@ -21,12 +21,12 @@
                 </select>    
             </div>
             <div class="mb-3">
-                <label for="">KODE</label>
-                <input type="text" name="pel_no" class="form-control" placeholder="Kode">
+                <label for="">HARI</label>
+                <input type="text" name="pel_no" class="form-control" placeholder="HARI">
             </div>
             <div class="mb-3">
-                <label for="">NAMA</label>
-                <input type="text" name="pel_nama" class="form-control" placeholder="Nama">
+                <label for="">JAM</label>
+                <input type="text" name="pel_nama" class="form-control" placeholder="JAM">
             </div>
             <div class="mb-3">
                 <label for="">Alamat</label>

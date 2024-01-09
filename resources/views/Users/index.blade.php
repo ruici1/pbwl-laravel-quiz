@@ -27,7 +27,7 @@
                 <td>{{ $row->user_nama}}</td>
                 <td>{{ $row->user_alamat}}</td>
                 <td>{{ $row->user_hp}}</td>
-                <td><a class="btn btn-info btn-sm float" href="{{url('users/' .$row->user_id. '/edit')}}">Edit</a></td>
+                <td><a class="btn btn-warning btn-sm float" href="{{url('users/' .$row->user_id. '/edit')}}">Edit</a></td>
                 <td>
                     <form action="{{url('users/' .$row->user_id)}}" method="post">
                         @method('DELETE')

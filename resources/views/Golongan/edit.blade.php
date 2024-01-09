@@ -10,7 +10,7 @@
                 <input type="text" name="gol_kode" class="form-control" value="{{$row->gol_kode}}">
             </div>
             <div class="mb-3">
-                <label for="">NAMA</label>
+                <label for="">NAMA GOLONGAN</label>
                 <input type="text" name="gol_nama" class="form-control" value="{{$row->gol_nama}}">
             </div>
             <div class="mb-3">
